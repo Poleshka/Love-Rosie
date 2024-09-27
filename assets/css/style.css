@@ -22,6 +22,10 @@
     background-color: #525252;
 }
 
+.bg-color-three-reasons {
+    background-color: #fffff;
+}
+
 /* ------------------------------Special paddings/margin/text */
 h1,
 h2,
@@ -42,6 +46,23 @@ h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float:none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /* -----------------------------------Heading */
@@ -141,7 +162,7 @@ footer {
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
-    margin: 0; */
+    margin: 0; 
 }
 
 .cv-pdf i {
