@@ -23,7 +23,7 @@
 }
 
 .bg-color-three-reasons {
-    background-color: #fffff;
+    background-color: #fff;
 }
 
 .bg-color-personal-info {
@@ -59,7 +59,7 @@ h4 {
 .section-column {
     display: table-cell;
     padding: 0 30px 30px;
-    float:none;
+    float: none;
 }
 
 .section-heading {
@@ -160,13 +160,14 @@ header {
     background: rgba(0, 0, 0, .2);
     height: 120px;
 }
+
 /* ------------------------------SFooter */
 
 footer {
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
-    margin: 0; 
+    margin: 0;
 }
 
 .cv-pdf i {
@@ -174,11 +175,12 @@ footer {
     color: #fafafa;
     text-align: center;
     padding-left: 5px;
-    transition :all 0.35s ease-in-out;
-    -moz-transition:all 0.35s ease-in-out;
-    -webkit-transition:all 0.35s ease-in-out;
-    -o-transition:all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
+
 .cv-pdf i:hover {
     color: #e84610;
 }
@@ -197,10 +199,10 @@ footer {
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
-    transition :all 0.35s ease-in-out;
-    -moz-transition:all 0.35s ease-in-out;
-    -webkit-transition:all 0.35s ease-in-out;
-    -o-transition:all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
@@ -220,4 +222,38 @@ footer {
 .three-reasons-heading {
     margin-bottom: 15px;
 
+}
+
+/* -----------------------------------Personal Info */
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    width: 60%;
+    position: relative;
 }
